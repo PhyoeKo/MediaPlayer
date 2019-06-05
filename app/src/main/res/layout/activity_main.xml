@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Song One"
+        android:textAllCaps="false"
+        android:id="@+id/btn1"
+        android:onClick="onClick"
+       />
+    <Button
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Song Two"
+        android:id="@+id/btn2"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Song Three"
+        android:id="@+id/btn3"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Song Four"
+        android:id="@+id/btn4"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Song Five"
+        android:id="@+id/btn5"
+        />
+
+
+</LinearLayout>
